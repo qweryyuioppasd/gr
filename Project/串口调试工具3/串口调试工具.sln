@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "串口调试工具", "串口调试工具\串口调试工具.csproj", "{58E9CEFE-7B4E-4136-A30C-8D4ACEEF757A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		串口调试器|Any CPU = 串口调试器|Any CPU
+		串口调试器|x64 = 串口调试器|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58E9CEFE-7B4E-4136-A30C-8D4ACEEF757A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58E9CEFE-7B4E-4136-A30C-8D4ACEEF757A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58E9CEFE-7B4E-4136-A30C-8D4ACEEF757A}.Debug|x64.ActiveCfg = Debug|x64
+		{58E9CEFE-7B4E-4136-A30C-8D4ACEEF757A}.Debug|x64.Build.0 = Debug|x64
+		{58E9CEFE-7B4E-4136-A30C-8D4ACEEF757A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58E9CEFE-7B4E-4136-A30C-8D4ACEEF757A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58E9CEFE-7B4E-4136-A30C-8D4ACEEF757A}.Release|x64.ActiveCfg = Release|x64
+		{58E9CEFE-7B4E-4136-A30C-8D4ACEEF757A}.Release|x64.Build.0 = Release|x64
+		{58E9CEFE-7B4E-4136-A30C-8D4ACEEF757A}.串口调试器|Any CPU.ActiveCfg = 串口调试器|Any CPU
+		{58E9CEFE-7B4E-4136-A30C-8D4ACEEF757A}.串口调试器|Any CPU.Build.0 = 串口调试器|Any CPU
+		{58E9CEFE-7B4E-4136-A30C-8D4ACEEF757A}.串口调试器|x64.ActiveCfg = 串口调试器|x64
+		{58E9CEFE-7B4E-4136-A30C-8D4ACEEF757A}.串口调试器|x64.Build.0 = 串口调试器|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {55B4BAC6-68B0-4BED-BFDA-812BEA40CBAC}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        td{
+            width: 100px;
+            height: 50px;
+            border: 1px solid;
+            text-align: center;
+        }
+        
+        #start{
+            background-color: red;
+            color:greenyellow;
+            text-align: center;
+        }
+        #goal{
+            background-color: blue;
+            color:greenyellow;
+            text-align: center;
+        }
+        #normal{
+            background-color: blueviolet;
+            color:aliceblue;
+        }
+        #normal1{
+            background-color: blueviolet;
+            color:green;
+        }
+        #inormal1{
+            background-color: white;
+            color:black
+        }
+        #fail{
+            background-color: bisque;
+            color:aliceblue;
+        }
+        input{
+            margin: 0 auto;
+            width: 100px;
+        }
+        
+    </style>
+</head>
+<body>
+    <input type="button" onclick="f1()" value="演示" id="c1"> 
+    <input type="button" onclick="f2()" value="复位" id="c2">
+    <table>
+        <tr>
+            <td rowspan="4" id="start"><b>信号发送元-></b></td>
+            <td id="normal">正常工作</td>
+            <td rowspan="4" id="goal"><b><-接收元</b></td>
+        </tr>
+        <tr>
+            <td id="normal">正常工作</td>
+        </tr>
+        <tr>
+            <td id="normal1">元件异常(点击后停用)</td>
+        </tr>
+        <tr>
+            <td id="inormal1">备用元件启用</td>
+        </tr>
+    </table>
+</body>
+<script>
+    function f1(){
+       var w1=document.getElementById("normal1");
+       var w2=document.getElementById("inormal1");
+       w1.setAttribute('style','background-color: white');
+       w2.setAttribute('style',' background-color: blueviolet');
+    }
+
+    function f2(){
+       var w1=document.getElementById("normal1");
+       var w2=document.getElementById("inormal1");
+       w1.setAttribute('style','background-color:blueviolet');
+       w2.setAttribute('style',' background-color: white');
+    }
+</script>
+</html>
